@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DatLichKhamActivity">
+
+    <ImageView
+        android:id="@+id/imghoadonthuoc"
+        android:layout_width="187dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconctyduoc" />
+
+    <EditText
+        android:id="@+id/edthoten"
+        android:layout_width="383dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint=" Tên Bác Sĩ"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imghoadonthuoc" />
+
+    <EditText
+        android:id="@+id/edtemail"
+        android:layout_width="383dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="Nhập Email"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edthoten" />
+
+    <EditText
+        android:id="@+id/edtdiachi"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Nhâp Địa Chỉ"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtemail" />
+
+    <Button
+        android:id="@+id/btndatlich"
+        android:layout_width="137dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginLeft="124dp"
+        android:layout_marginTop="44dp"
+        android:text="Đặt Lịch Khám"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nice_spinner" />
+
+    <EditText
+        android:id="@+id/tvdate"
+        android:layout_width="381dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Nhập thời gian tái khám"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtdiachi" />
+
+
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/nice_spinner"
+        android:text="Nhập Vào Loại Bệnh"
+        android:layout_width="378dp"
+        android:layout_height="49dp"
+        android:layout_margin="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:background="#00F1E4E4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvdate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "814519203622",
+    "firebase_url": "https://tudienthuoc-d16ab.firebaseio.com",
+    "project_id": "tudienthuoc-d16ab",
+    "storage_bucket": "tudienthuoc-d16ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814519203622:android:f468011f721078af3873e7",
+        "android_client_info": {
+          "package_name": "com.example.tudienthuoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814519203622-qrd208jdm844f4gr2mksje6h1rqne335.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tudienthuoc",
+            "certificate_hash": "057bd0936fcfe72ca7c2a86eca17bd9dbbc9497d"
+          }
+        },
+        {
+          "client_id": "814519203622-f8q6a54885rfi6frop55504f4g58oh4n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_vLVRKx40ql4ysDN4o1BXR5Jic1fhOGo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814519203622-f8q6a54885rfi6frop55504f4g58oh4n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

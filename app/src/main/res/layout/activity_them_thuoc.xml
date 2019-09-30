@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemThuocActivity">
+
+    <ImageView
+        android:id="@+id/imgthuoc"
+        android:layout_width="340dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconthuoccuatoi" />
+
+    <EditText
+        android:id="@+id/edttenthuoc"
+        android:layout_width="340dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Nhập tên thuốc"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgthuoc" />
+
+    <EditText
+        android:id="@+id/edtmota"
+        android:layout_width="335dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Nhập Mô Tả"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edttenthuoc" />
+
+    <Button
+        android:id="@+id/btn_them"
+        android:layout_width="151dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginLeft="128dp"
+        android:layout_marginTop="84dp"
+        android:text="Thêm"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtmota" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

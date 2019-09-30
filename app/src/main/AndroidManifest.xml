@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.tudienthuoc">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ChiTietKhamBenhActivity"></activity>
+        <activity android:name=".TestActivity" />
+        <activity android:name=".DanhSachLichKhamActivity" />
+        <activity android:name=".ChiTietActivity" />
+        <activity android:name=".DatLichKhamActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ThemDuLieuActivity" />
+        <activity android:name=".ThemNhaThuocActivity" />
+        <activity android:name=".ThemBenhVienActivity" />
+        <activity android:name=".ThemCongTyDuocActivity" />
+        <activity android:name=".ThemPhongKhamActivity" />
+        <activity android:name=".ThemLoaiThuocActivity" />
+        <activity android:name=".ThemThuocActivity" />
+        <activity
+            android:name=".LoaiThuocActivity"
+            android:label="Loại Thuốc" />
+        <activity
+            android:name=".ThuocCuaToiActivity"
+            android:label="Thuốc Của Tôi" />
+        <activity
+            android:name=".NhaThuocActivity"
+            android:label="Nhà Thuốc" />
+        <activity
+            android:name=".BenhVienActivity"
+            android:label="Bệnh Viện" />
+        <activity
+            android:name=".CongTyDuocActivity"
+            android:label="Công Ty Dược" />
+        <activity
+            android:name=".PhongKhamActivity"
+            android:label="Phòng Khám" />
+        <activity
+            android:name=".ThuocActivity"
+            android:label="Thuốc" />
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <dist:module dist:instant="true" />
+
+</manifest>

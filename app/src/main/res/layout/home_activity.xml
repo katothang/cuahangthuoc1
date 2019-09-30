@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#D8D2D2"
+    tools:context=".HomeActivity">
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:id="@+id/ln_thuoc"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#94C7F0"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="30dp"
+                android:layout_weight="3"
+                android:src="@drawable/iconthuoc" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text="Loại Bệnh"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ln_phongkham"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#94C7F0"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_weight="3"
+                android:src="@drawable/iconphongkham"
+                android:layout_margin="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:text="Phòng khám"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_congtyduoc"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#E4A378"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="65dp"
+                android:layout_height="27dp"
+                android:layout_margin="30dp"
+                android:layout_weight="3"
+                android:src="@drawable/iconctyduoc" />
+
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Công ty dược"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ln_benhvien"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#E4A378"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_weight="3"
+                android:src="@drawable/iconhospital"
+                android:layout_margin="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:text="Bệnh viên"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ln_nhathuoc"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#F598C0"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_weight="3"
+                android:src="@drawable/iconnhathuoc"
+                android:layout_margin="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Đặt Lịch Khám"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ln_thuoccuatoi"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:background="#F598C0"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_weight="3"
+                android:src="@drawable/iconthuoccuatoi"
+                android:layout_margin="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:text="Lịch Khám"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ln_themdl"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:visibility="invisible">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:background="#F598C0"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/iconnhathuoc" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Thêm Dữ Liệu"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
